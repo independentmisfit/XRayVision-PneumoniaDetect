@@ -7,8 +7,7 @@ Project Overview
 - How to Run
 - Results
 - Training and Evaluation
-- Usage
-- References
+- Conclusion
 ## Project Overview
 This project aims to build a deep learning model using Convolutional Neural Networks (CNNs) to detect pneumonia from chest X-ray images. The model is trained to classify X-ray images into two categories: Normal and Pneumonia. The dataset used for this project contains labeled chest X-ray images, and the goal is to achieve high accuracy in classifying these images using state-of-the-art CNN techniques.
 
