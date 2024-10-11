@@ -95,20 +95,21 @@ Model Performance:
 Confusion Matrix:
                 | Predicted Normal |	Predicted Pneumonia|
 ----------------|------------------|---------------------|
-True Normal	    |200               |	5                  |
-True Pneumonia	|10                |	180                |
+True Normal	    |199               |	35                 |
+True Pneumonia	|18                |	372                |
 
 Example Classification Report:
 ```
-Copy code
-              precision    recall  f1-score   support
 
-       Normal      0.95      0.98      0.97       205
-    Pneumonia      0.97      0.95      0.96       190
+   precision    recall  f1-score   support
 
-    accuracy                           0.96       395
-   macro avg       0.96      0.96      0.96       395
-weighted avg       0.96      0.96      0.96       395
+      NORMAL       0.92      0.85      0.88       234
+   PNEUMONIA       0.91      0.95      0.93       390
+
+    accuracy                           0.92       624
+   macro avg       0.92      0.90      0.91       624
+weighted avg       0.92      0.92      0.91       624
+
 ```
 ## **Training and Evaluation**
 - The model is trained using Adam optimizer with a learning rate of 0.0001.
