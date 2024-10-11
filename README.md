@@ -115,6 +115,6 @@ weighted avg       0.96      0.96      0.96       395
 - Early Stopping is used to prevent overfitting, monitoring validation loss.
 - The model is evaluated on the test set using standard metrics such as accuracy, precision, recall, and F1-score.
 
-## **Conclussion**
+## **Conclusion**
 
 The **XRayVision-PneumoniaDetect** project successfully demonstrates the potential of deep learning in medical image analysis, particularly in the early detection of pneumonia from chest X-ray images. By leveraging convolutional neural networks and transfer learning, the model achieves high accuracy, showcasing its ability to assist healthcare professionals in making quicker, more accurate diagnoses. This project highlights the importance of advanced machine learning techniques in enhancing diagnostic processes, ultimately contributing to improved patient outcomes in the fight against pneumonia. Future work may focus on expanding the dataset, optimizing the model further, and integrating the solution into clinical workflows for real-time analysis
